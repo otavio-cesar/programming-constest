@@ -93,22 +93,23 @@ class Solution
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int t = Convert.ToInt32(Console.ReadLine().Trim());
-        while(true){
-
-        string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
-
-        int n = Convert.ToInt32(firstMultipleInput[0]);
         
-        int k = Convert.ToInt32(firstMultipleInput[1]);
+        while(true){
+            string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
-        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+            int n = Convert.ToInt32(firstMultipleInput[0]);
+            
+            int k = Convert.ToInt32(firstMultipleInput[1]);
 
-        int result = Result.unboundedKnapsack(k, arr);
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-        textWriter.WriteLine(result);
-        textWriter.Flush();
-        t--;
-        if(t==0)break;
+            int result = Result.unboundedKnapsack(k, arr);
+
+            textWriter.WriteLine(result);
+            textWriter.Flush();
+            t--;
+
+            if (t==0) break;
         }
         textWriter.Close();
     }
