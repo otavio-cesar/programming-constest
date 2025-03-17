@@ -38,22 +38,10 @@ class Result
         
         pack(k, 0, k, arr);
         
-        // Print DP
-        // for(int i = 0; i < 15; i++)
-        // {
-        //     var s = "";
-        //     for(int j = 0; j < 17; j++)
-        //     {
-        //         s+=" "+reachable[i][j];
-        //     } 
-        //     System.Console.WriteLine(s);
-        // }
-        
         for(int i = 0; i <= k; i++)
         {
             for(int j = 2000; j >= 0; j--)
             {
-                // System.Console.WriteLine($"L{i}C{j}E{reachable[i][j]}");
                 if(reachable[i][j] != -1) return k-i;
             } 
         } 
@@ -94,7 +82,8 @@ class Solution
 
         int t = Convert.ToInt32(Console.ReadLine().Trim());
         
-        while(true){
+        while(true)
+        {
             string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
             int n = Convert.ToInt32(firstMultipleInput[0]);
