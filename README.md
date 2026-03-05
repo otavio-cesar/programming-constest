@@ -1,3 +1,8 @@
+# How to Run
+
+To run a project from leetcode, you should configure at the .csproj the name of the Namespace.
+
+
 # Trainning to Programming Contest.
 
 ## Dynamic Programming
@@ -12,3 +17,7 @@
 ## Array
 
 1. https://leetcode.com/problems/container-with-most-water?envType=problem-list-v2&envId=array
+
+## Linked List
+
+1. https://leetcode.com/problems/add-two-numbers/description/
