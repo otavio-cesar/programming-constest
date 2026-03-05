@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>AddTwoNumber.Program</StartupObject>  <!-- Add this line to specify the entry point -->
+    <StartupObject>LengthOfLongestSubstring.Program</StartupObject>  <!-- Add this line to specify the entry point -->
   </PropertyGroup>
 
 </Project>

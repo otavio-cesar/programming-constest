@@ -21,3 +21,7 @@ To run a project from leetcode, you should configure at the .csproj the name of 
 ## Linked List
 
 1. https://leetcode.com/problems/add-two-numbers/description/
+
+# String 
+
+1. https://leetcode.com/problems/longest-substring-without-repeating-characters/
