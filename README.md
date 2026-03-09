@@ -25,3 +25,7 @@ To run a project from leetcode, you should configure at the .csproj the name of 
 # String 
 
 1. https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+## Breadth-first Search
+
+1. 
